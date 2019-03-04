@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Trading Pin - Order Form</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -47,16 +47,64 @@
 				<div class="container box large">
 
 					<header class="major special">
-						<h2>No Sidebar</h2>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						<h2>Trading Pin Order Form</h2>
+						<p>Looking to order? Get started below.</p>
 					</header>
 
 					<a href="#" class="image fit"><img src="images/banner.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+					<form method="post" action="#">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" value="" placeholder="Email" />
+							</div>
+							<div class="col-12">
+								<div class="select-wrapper">
+									<select name="category" id="category">
+									<option value="">Quantity</option>
+										<option value="1">100 pcs.</option>
+										<option value="1">150 pcs</option>
+										<option value="1">200 pcs</option>
+										<option value="1">250+ pcs</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-4 col-12-xsmall">
+								<input type="radio" id="priority-low" name="priority" checked>
+								<label for="priority-low">I need some help with the design.</label>
+							</div>
+							<div class="col-4 col-12-xsmall">
+								<input type="radio" id="priority-normal" name="priority">
+								<label for="priority-normal">I somewhat know what I want.</label>
+							</div>
+							<div class="col-4 col-12-xsmall">
+								<input type="radio" id="priority-high" name="priority">
+								<label for="priority-high">I know exactly what I want.</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="copy" name="copy">
+								<label for="copy">Email me a copy of this message</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="human" name="human" checked>
+								<label for="human">I am a human and not a robot</label>
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
 
 				</div>
+
 			</section>
 
 		<!-- Footer -->
