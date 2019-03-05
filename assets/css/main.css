@@ -7,6 +7,8 @@
 	License: pixelarity.com/license
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2515,6 +2517,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #00b47b;
 			color: #ffffff !important;
+			transition: transform 150ms linear;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2523,6 +2526,9 @@ input, select, textarea {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: #00ce8c;
+				box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  			-webkit-transform: translateY(-0.25em);
+				transition: transform 150ms linear;
 			}
 
 			input[type="submit"].primary:active,
