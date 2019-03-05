@@ -2645,6 +2645,7 @@ input, select, textarea {
 		margin: 6em auto 0;
 		max-width: 55%;
 		width: 60em;
+
 	}
 
 		.browser-mockup .chrome {
@@ -2711,6 +2712,13 @@ input, select, textarea {
 
 		.browser-mockup img {
 			width: 100%;
+			transition: tranform 300ms linear;
+		}
+		.browser-mockup img:hover{
+			transition: transform 300ms linear;
+			border: solid 3px;
+
+
 		}
 
 /* Wrapper */
