@@ -2716,7 +2716,8 @@ input, select, textarea {
 		}
 		.browser-mockup img:hover{
 			transition: transform 300ms linear;
-			border: solid 3px;
+			border-radius: 10px;
+			border: solid 2px;
 
 
 		}
