@@ -2712,14 +2712,10 @@ input, select, textarea {
 
 		.browser-mockup img {
 			width: 100%;
-			transition: tranform 300ms linear;
 		}
 		.browser-mockup img:hover{
-			transition: transform 300ms linear;
 			border-radius: 10px;
 			border: solid 2px;
-
-
 		}
 
 /* Wrapper */
